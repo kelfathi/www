@@ -1,0 +1,10 @@
+/* TEAM */
+Developer and designer: Khalid El Fathi
+Site: http://elfathi.fr
+Contact: khalid@elfathi.fr
+Location: Bailly-Romainvilliers, France
+
+/* SITE */
+Last update: 2012/04/09
+Standards: HTML5, CSS3
+Software: Bluefish, Vim

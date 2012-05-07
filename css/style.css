@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "Raleway";
+  src: url('../fonts/raleway_thin.eot?') format('embedded-opentype'), url('../fonts/raleway_thin.otf') format('opentype');
+}
+
+@font-face {
+  font-family: "Junction";
+  src: url('../fonts/junction.eot?') format('embedded-opentype'), url('../fonts/junction.otf') format('opentype');
+}
+
+body {
+  background-image: url('../img/background.jpg');
+  background-repeat: repeat-x;
+  font-size: 16px;
+  font-family: "Junction", sans-serif;
+  line-height: 1.2em;
+}
+
+img {
+  border: none;
+}
+
+.rounded-corners {
+  border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+
+#main-box {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#top-box, #bottom-box {
+  width: 100%;
+  padding: 10px;
+}
+
+#top-box {
+  background-color: rgba(0,0,0,0.3);
+  height: 380px;
+}
+
+#bottom-box {
+  background-color: rgba(0,0,0,0.3);
+  color: #FFFFFF;
+}
+
+#top-box a {
+  color: #4698B0;
+  text-decoration: none;
+}
+
+#bottom-box a {
+  color: #82B3DB;
+  text-decoration: none;
+}
+
+#top-box p {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+#main-box a:hover {
+  text-decoration: underline;
+}
+
+#blurb-box {
+  float: left;
+  width: 35em;
+}
+
+#blurb-box h1 {
+  color: #FFFFFF;
+  font-size: 4em;
+  font-variant: small-caps;
+  font-family: "Raleway", sans-serif;
+  font-weight: normal;
+  line-height: 1.2em;
+  margin: 0;
+}
+
+#tagline {
+  margin: 0;
+  font-size: 1.0em;
+  font-family: "Raleway", sans-serif;
+}
+
+#contact-box {
+  float: right;
+  text-align: center;
+  color: #FFFFFF;
+  background-image: url('../img/khalid_el_fathi.jpg');
+  background-repeat: no-repeat;
+  background-color: #132031;
+  width: 190px;
+  height: 375px;
+}
+
+#fullname-label, #hidden-avatar {
+  display: none;
+}
+
+#portrait-image-spacer {
+  height: 280px;
+}
+
+.vertical-spacer {
+  height: 20px;
+}
+
+#column-box {
+  height: 110px;
+  width: 100%;
+}
+
+#debian-column, #writing-column, #hobbies-column {
+  background-color: rgba(60,60,60,0.9);
+  float: left;
+  width: 260px;
+}
+
+#writing-column {
+  margin: 0 10px 0 10px;
+}
+
+#column-box h2 {
+  font-size: 1.2em;
+  font-weight: normal;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#organisations-box {
+  text-align: center;
+  padding: 10px;
+}
+
+#organisations-box img {
+  margin: 0 5px 0 5px;
+}
+
+#license-statement {
+  text-align: center;
+  font-size: 0.7em;
+}
